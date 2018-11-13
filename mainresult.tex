@@ -1,0 +1,32 @@
+\documentclass[12pt,a4paper,twoside,english]{book}
+
+\usepackage{Formato}
+
+\title{Tesis 7 Resultados }
+\author{Aaron Sújar}
+
+\begin{document}
+\frontmatter
+
+
+\include{Acronyms}
+
+
+\tableofcontents
+\listoffigures
+ 
+\listoftables
+
+\mainmatter
+\input{introresult}
+\input{rasimasresults}
+\input{xrayresults}
+
+%\appendix
+%\include{appendix}
+\cleardoublepage
+% Como incorporar como un capitulo mas en el indice de la bibliografia
+\addcontentsline{toc}{chapter}{Bibliografía}
+\bibliography{bibliography}
+\bibliographystyle{alpha}
+\end{document}
