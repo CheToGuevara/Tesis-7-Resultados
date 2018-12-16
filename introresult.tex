@@ -1,11 +1,15 @@
 \chapter{Resultados} 
 \label{cap:results}
 
-En este capítulo, se procederá a mostrar los resultados obtenidos al integrar el algoritmo propuesto en los casos de usos descritos. 
+En este capítulo, se procederá a mostrar los resultados obtenidos tanto del algoritmo propuesto como de su integración en los caso de usos descritos. El objetivo es mostrar las dos características principales: \begin{itemize}
+    \item El algoritmo puede deformar modelos anatómicos con estructuras internas aunque estos se encuentren incompletos o no se dispongan de sus propiedades mecánicas. 
+    \item El algoritmo puede ser integrado en cualquier entorno que necesitara incorporar un método que permita la animación interactivamente de modelos anatómicos con estructuras internas.
+\end{itemize}
 
-Aunque el proyecto \ac{RASimAs} ha impuesto una serie de requisitos para generar la herramienta \ac{TPTVPH}, se diseñó con la idea de ser lo más flexible y permitir el desarrollo de los módulos por separado, solo haciendo enfasís en los formatos de intercambio entre las distintas etapas. Esta herramienta permitiría crear una base de datos de modelos anatómicos que se podrían utilizar en el simulador \ac{RASim}. Este simulador ha sido desarrollado por varios participantes del proyecto, siendo aglutinados en última instancia por el \ac{Courseware}. Esta aplicación es la encargada de supervisar la interacción del usuario con el sistema y proporcionar un entorno de aprendizaje del procedimiento de \ac{RA}.
+En primer lugar, se analizará los resultados obtenidos del algortimo de posicionamiento de pacientes virtuales. Se mostrarán los datos respecto a su rendimiento y calidad visual. Se detallará la opinión de usuarios a la fase de optimización. Además, se mostrará las posibilidades de utilizar otras representaciones. Por último, se discutirán los resultados en la sección \ref{posing:discusion}.
 
-En el caso de uso del simulador de diagnóstico radiológico, la integración del algoritmo de posicionamiento puede demostrar su flexibilidad y versatilidad. Este podría ser integrado en cualquier entorno que necesitara incorporar un método que permita la animación de modelos anatómicos con estructuras internas.
-\todo{mejorar}
+En segundo lugar, se hablará de la integración del algoritmo dentro del proyecto \ac{RASimAs}. En primer lugar, se hablará de los resultados obtenidos desarrollando la herramienta \ac{ITGVPH} que permitiría crear una base de datos de modelos anatómicos para el simulador \ac{RASim}. Después, se describirán los resultados del módulo \ac{Courseware}, que gestiona el simulador. Esta aplicación es la encargada de supervisar la interacción del usuario con el sistema y proporcionar un entorno de aprendizaje del procedimiento de \ac{RA}. Finalmente, se discutirán los resultados en la sección \ref{rasim:discusion}.
+
+En último lugar, se mostrarán los resultados del simulador radiología diagnóstica. En esta aplicación, el algoritmo de posicionamiento puede demostrar su flexibilidad y versatilidad, permitiendo al usuario modificar la postura del paciente virtual interactivamente. A la vez, se podrá conseguir una imagen de rayos X en tiempo real. En la sección \ref{result:xray} se mostrarán los datos respecto a su rendimiento y calidad visual. Por último,  se discutirán los resultados en la sección \ref{xray:discusion}.
 
 
